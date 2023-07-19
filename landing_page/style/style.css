@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+    background: url('static/bg.jpeg');
+    height: 100%;
+    background-position:initial;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    display: inline-block;
+    left:5%;
+    
+}
+.nav{
+    position: relative;
+    display: block;
+    width: 50%;
+    margin: auto auto;
+    justify-content: space-between;  
+    padding-left: 10%;
+}
+.connect{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    width: 20%;
+    height: 7%;   
+    text-align: center;
+    justify-content: space-between;
+}
+
+.container{   
+    margin: 66px 71px;
+    padding: 70px;
+    width: 40%;
+    position: absolute;
+    right: 1%;
+}   
+
+.logo h2{
+    font-size: 35px;
+    color:wheat;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.logo h2:hover{
+    font-size: 35px;
+    color:white;
+    cursor: pointer;
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar li a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px 10px;
+    transition: all 0.3s linear;   
+}
+
+.navbar li a:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 4px 10px;
+}
+
+.connect a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    transition: all 0.3s linear;   
+}
+
+.connect a:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.container h3{
+    font-size: 40px;
+    color: #bf83e4;
+}
+.container p{
+    font-size: 20px;
+    color:#bf83e4;
+}
