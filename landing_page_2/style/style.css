@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Caveat', cursive;}
+
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.nav{
+    position: fixed;
+    background-color: transparent;
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
+}
+
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30em;
+}
+
+.nav a{
+    color:#fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-out;
+}
+
+.nav a:hover{
+    background-color: #fff;
+    color:#6ac15e;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 7px 15px;
+}
+
+.nav h1{
+    color:#fff;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.hero{
+    background-color: #6ac15e;
+    /* background-size: cover; */
+    /* background-position: bottom center; */
+    background-image: url('static/bg.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+    background-size: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+.hero .container{
+    /* border: 2px solid red; */
+    height: 70vh;
+    width: 40vw;
+    position: absolute;
+    left: 5%;
+    padding: 35px 20px;
+    color:#fff;
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 2.5em;
+    margin: 20px;
+}
+
+.hero p{
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
